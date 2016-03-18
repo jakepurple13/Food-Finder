@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TabHost;
@@ -9,8 +10,7 @@ import android.widget.TabWidget;
 
 public class MainActivity extends Activity {
 
-    TabHost th;
-    ListView lv;
+
     final String FRIDGE = "Fridge";
     final String FREEZER = "Freezer";
     final String PANTRY = "Pantry";
@@ -20,6 +20,8 @@ public class MainActivity extends Activity {
     final String ALL = "All";
     final String REMIND = "Remind to Pick Up";
 
+    TabHost th;
+    ListView lv;
 
 
     @Override
